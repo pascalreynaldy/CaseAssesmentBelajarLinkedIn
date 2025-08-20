@@ -300,20 +300,6 @@
       }
       typeEffect();
 
-      // Testimonial slider
-      const slider = document.getElementById('testimonial-slider');
-      const slideWidth = 330;
-      let position = 0;
-
-      function autoSlide() {
-        position -= slideWidth;
-        if (Math.abs(position) >= slider.scrollWidth / 2) {
-          position = 0;
-        }
-        slider.style.transform = `translateX(${position}px)`;
-      }
-
-      setInterval(autoSlide, 3000);
     });
   </script>
 </body>
