@@ -28,9 +28,8 @@ Project ini tidak membutuhkan proses instalasi khusus karena seluruh kode berbas
 
 ## Live Demo
 
-Kunjungi aplikasi versi live pada:
+Live Demo ada di Link:
 [https://case-assesment-belajar-linked-in.vercel.app](https://case-assesment-belajar-linked-in.vercel.app)
 
 ---
 
-Silakan kontak saya di LinkedIn jika ingin diskusi atau kolaborasi lebih lanjut: [linkedin.com/in/pascalreynaldy](https://linkedin.com/in/pascalreynaldy)
