@@ -61,18 +61,6 @@ header a {
   transform: translateY(0);
 }
 
-/* Typing cursor */
-#typing-text::after {
-  content: "|";
-  animation: blink 0.7s infinite;
-  margin-left: 2px;
-}
-
-@keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0; }
-}
-
 /* Slow bounce animation */
 @keyframes slow-bounce {
   0%, 100% { transform: translateY(0); }

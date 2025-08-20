@@ -34,7 +34,7 @@
   </header>
 
   <!-- Hero -->
-  <section class="relative bg-gradient-to-br from-[#0A66C2] via-blue-700 to-indigo-900 text-white min-h-screen flex items-center justify-center px-6 overflow-hidden">
+  <section class="relative bg-gradient-to-br from-[#1E3A8A] to-[#3B82F6] text-white min-h-screen flex items-center justify-center px-6 overflow-hidden">
     <!-- Animasi di BG -->
     <div class="absolute top-20 left-10 w-72 h-72 bg-blue-400 opacity-20 rounded-full blur-3xl animate-pulse"></div>
     <div class="absolute bottom-20 right-10 w-96 h-96 bg-indigo-500 opacity-20 rounded-full blur-3xl animate-slow-bounce"></div>
@@ -62,17 +62,20 @@
 
 <!-- Tentang Kelas -->
 <section id="tentangkelas" class="py-24 px-6 bg-gray-50 fade-up">
-  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+    
     <!-- Gambar -->
-    <div class="relative">
-      <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-           alt="LinkedIn Course" 
-           class="rounded-2xl shadow-lg card-hover"/>
-      <div class="absolute -top-6 -left-6 w-32 h-32 bg-gradient-to-tr from-blue-500 to-purple-500 rounded-full opacity-30 blur-2xl"></div>
+    <div class="relative md:w-1/2 flex-shrink-0">
+      <div class="rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 bg-white">
+        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+             alt="LinkedIn Course" 
+             class="w-full h-full object-cover"/>
+      </div>
+      <div class="absolute -top-8 -left-8 w-32 h-32 bg-gradient-to-tr from-blue-500 to-purple-500 rounded-full opacity-30 blur-2xl"></div>
     </div>
 
     <!-- Teks -->
-    <div class="text-center md:text-left">
+    <div class="md:w-1/2 bg-white p-8 rounded-2xl shadow-lg text-center md:text-left">
       <h2 class="text-4xl font-bold mb-6 text-gray-900">
         Tentang Kelas Belajar LinkedIn
       </h2>
@@ -105,10 +108,11 @@
 </section>
 
 
-  <!-- Benefit -->
+
+<!-- Benefit -->
   <section id="benefit" class="py-20 px-6 bg-gradient-to-b from-gray-50 to-white fade-up">
     <div class="max-w-6xl mx-auto text-center">
-      <h2 class="text-4xl font-extrabold mb-4 text-gray-900">Benefit Kelas BelajarLinkedIn</h2>
+      <h2 class="text-4xl font-bold mb-12 text-gray-900">Benefit Kelas Belajar LinkedIn</h2>
       <div class="w-20 h-1 bg-blue-500 mx-auto mb-12 rounded-full"></div>
 
       <div class="grid md:grid-cols-3 gap-10">
@@ -140,7 +144,7 @@
 <!-- Testimoni -->
 <section id="testimoni" class="py-20 px-4 bg-gradient-to-b from-white to-gray-100 relative overflow-hidden">
   <div class="max-w-5xl mx-auto text-center">
-    <h2 class="text-4xl font-bold mb-12 text-gray-900">✨ Alumni Belajar LinkedIn</h2>
+    <h2 class="text-4xl font-bold mb-12 text-gray-900">Alumni Belajar LinkedIn</h2>
 
     <!-- Slider -->
     <div class="relative overflow-x-auto px-6 py-4">
@@ -230,7 +234,7 @@
   <div class="absolute bottom-0 right-0 w-56 h-56 bg-blue-500 opacity-10 rounded-full blur-3xl"></div>
 
   <div class="relative max-w-6xl mx-auto text-center space-y-6">
-    <h3 class="text-2xl font-bold mb-2">BelajarLinkedIn</h3>
+    <h3 class="text-2xl font-bold mb-2">Belajar LinkedIn</h3>
     <img src="image/logobelajarlinkedin.jpg" alt="Logo BelajarLinkedIn" class="h-16 w-16 object-contain mx-auto mb-4"/>
     <p class="text-gray-400">© 2025 Semua hak dilindungi.</p>
 
