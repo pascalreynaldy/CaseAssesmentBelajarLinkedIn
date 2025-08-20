@@ -92,3 +92,6 @@ header a {
 .animate-slow-spin {
   animation: slow-spin 40s linear infinite;
 }
+#testimonial-slider {
+  overflow: visible;
+}
